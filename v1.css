@@ -1,0 +1,15 @@
+body {
+  background-color: lightyellow;
+  font-family: "Times New Roman";
+}
+h1 {
+  color: red;
+  text-align: center;
+}
+h3 { text-align: center; }
+h2 { color: blue; }
+p { font-size: 14px; }
+.route { font-size: 11px; }
+table { border: 1px solid black; }
+td { border: 1px solid black; }
+.foot { text-align: center; font-size: 12px; }

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CampNav - Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>CampNav</h1>
+  <p>Prototype test results at a glance</p>
+  <nav><a href="index.html">Route finder</a> <a href="dashboard.html" class="active">Dashboard</a> <a href="feedback.html">Feedback</a></nav>
+</header>
+<main class="wide">
+
+<h2>Prototype Test Dashboard</h2>
+<p class="sample"><b>Sample data:</b> every number on this page is imaginary and only shows how the dashboard will look. Replace the numbers with the results of our real test sessions before submission.</p>
+
+<div class="cards">
+  <div class="card"><div>Users tested</div><div class="big">5</div></div>
+  <div class="card bad"><div>Reached Block 34 without help (v1)</div><div class="big">2 / 5</div></div>
+  <div class="card good"><div>Reached Block 34 without help (v2)</div><div class="big">5 / 5</div></div>
+  <div class="card good"><div>Issues fixed in v2</div><div class="big">6 / 7</div></div>
+</div>
+
+<div class="box">
+  <h3>Version 1 vs Version 2</h3>
+
+  <div class="bar-row">
+    <div class="bar-label">Users who found the route without asking anyone</div>
+    <div class="bar-bg"><div class="bar v1" style="width: 40%;">v1: 40%</div></div>
+    <div class="bar-bg" style="margin-top:4px;"><div class="bar v2" style="width: 100%;">v2: 100%</div></div>
+  </div>
+
+  <div class="bar-row">
+    <div class="bar-label">Average time to find the first step (seconds)</div>
+    <div class="bar-bg"><div class="bar v1" style="width: 90%;">v1: 45 s</div></div>
+    <div class="bar-bg" style="margin-top:4px;"><div class="bar v2" style="width: 20%;">v2: 10 s</div></div>
+  </div>
+
+  <div class="bar-row">
+    <div class="bar-label">Users who said the page was easy to read on a phone</div>
+    <div class="bar-bg"><div class="bar v1" style="width: 20%;">v1: 20%</div></div>
+    <div class="bar-bg" style="margin-top:4px;"><div class="bar v2" style="width: 80%;">v2: 80%</div></div>
+  </div>
+</div>
+
+<div class="box">
+  <h3>Issues found and what we did</h3>
+  <table>
+    <tr><th>Issue found in v1</th><th>Change in v2</th><th>Status</th></tr>
+    <tr><td>Too much text before the route</td><td>Route is the first thing on the page</td><td><span class="tag fixed">Fixed</span></td></tr>
+    <tr><td>Small text, hard to read on a phone</td><td>Larger text, white background, strong colours</td><td><span class="tag fixed">Fixed</span></td></tr>
+    <tr><td>Steps not numbered</td><td>One numbered step at a time</td><td><span class="tag fixed">Fixed</span></td></tr>
+    <tr><td>No way to check you are on track</td><td>"You should see..." under every step</td><td><span class="tag fixed">Fixed</span></td></tr>
+    <tr><td>No distance or time</td><td>Step counter and walking time</td><td><span class="tag fixed">Fixed</span></td></tr>
+    <tr><td>No back button or help</td><td>Back, Start over and a help box</td><td><span class="tag fixed">Fixed</span></td></tr>
+    <tr><td>Only one route (from Main Gate)</td><td>Unipolis, Academic Block and Robopark added as templates</td><td><span class="tag open">Needs real routes</span></td></tr>
+  </table>
+</div>
+
+</main>
+
+<footer>
+  <b>CampNav</b> &middot; Which Block Is 34? &middot; INT335 Design Thinking, Project P10
+  <div class="team">Team:
+    <span class="member">@Advait</span>
+    <span class="member">@Gauri</span>
+    <span class="member">@Pawan</span>
+  </div>
+  <small>&copy; 2026 CampNav. Prototype for class use.</small>
+</footer>
+</body>
+</html>
